@@ -47,7 +47,7 @@ export const SpinPanel : FC<SpinPanelProps> = ({
             </Button>
             <div className="text-center">
                 <div className="label-md mb-1">{title}</div>
-                <NumberInput variant="primary" className="text-center" placeholder="Input" value={value} onChange={onChange}/>
+                <NumberInput variant="primary" className="text-center mb-1" placeholder="Input" value={value} onChange={onChange}/>
                 <div className="token-info">{`${token2.name} / 1 ${token1.name}`}</div>
             </div>
             <Button variant="primary" size="md" className="circle" onClick={handleClickPlus}>
